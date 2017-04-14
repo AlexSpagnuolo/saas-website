@@ -10,65 +10,75 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="relative">
     <nav id="top">
 
-      <a class="current" href="index.html">
-        <img src="images/" alt="">
-      </a>
-
-      <ul>
-        <li><a href="pricing.html">Pricing</a></li>
-        <li><a href="features.html">Features</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="join.html">Join</a></li>
+      <ul class="grid absolute list-group-inline zindex-2">
+        <li class="unit xs-1-6">
+          <a href="index.html">
+            <img src="images/" alt="">
+          </a>
+        </li>
+        <li class="unit xs-1-6"><a href="pricing.html">Pricing</a></li>
+        <li class="unit xs-1-6"><a href="tour.html">Features</a></li>
+        <li class="unit xs-1-6"><a href="#">Help</a></li>
+        <li class="unit xs-1-6 "><a href="sign-up.html">Join</a></li>
+        <li class="unit xs-1-6">
+          <a href="#">
+            <img src="images/" alt="">
+          </a>
+        </li>
       </ul>
 
-      <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="nav-label" for="nav-check">
-        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
-        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
-      </label>
+      <figure class="banner relative chop">
+        <img class="img-flex" src="http://placehold.it/350x150" alt="">
+        <figcaption class="banner-title absolute pin-center zindex-2 text-center">
+          <h1>Type that works for you</h1>
+          <p>Now easier than ever before</p>
+          <div>
+            <button>Join</button>
+          </div>
+        </figcaption>
+      </figure>
+
     </nav>
   </header>
   <main>
 
-    <figure>
-      <img src="images/" alt="">
-      <figcaption class="banner-title">
-        <h1>Type that works for you</h1>
-        <p>Now easier than ever before</p>
-        <div>
-          <button>Join</button>
-        </div>
-      </figcaption>
-    </figure>
-
-    <section>
-      <a href="pricing.html">
-        <img src="images/" alt="">
+    <section class="grid gutter-2">
+      <a class="unit text-center xs-1-2 card icon-link" href="pricing.html">
+        <img class="icon i-24" src="http://placehold.it/50x50" alt="">
         <p>Pricing</p>
       </a>
 
-      <a href="features.html">
-        <img src="images/" alt="">
+      <a class="unit text-center xs-1-2 card icon-link" href="tour.html">
+        <img class="icon i-24" src="http://placehold.it/50x50" alt="">
         <p>Features</p>
       </a>
     </section>
 
     <section>
-      <figure>
-        <figcaption>
-          <h2>Why Does TypeWorks Work?</h2>
-          <p>By integrating all features professionals look for, we’ve revitalized the process you take to make type work.</p>
+      <figure class="quote chop relative">
+        <img class="img-flex" src="http://placehold.it/350x150" alt="">
+        <figcaption class="quotation absolute pin-center zindex-2 text-center">
+          <p>"Easily create and share. Professional service for professional designers."</p>
         </figcaption>
-        <img src="images/" alt="">
       </figure>
     </section>
 
     <section>
       <figure>
-        <figcaption>
+        <figcaption class="text-center">
+          <h2>Why Does TypeWorks Work?</h2>
+          <p>By integrating all features professionals look for, we’ve revitalized the process you take to make type work.</p>
+        </figcaption>
+        <img src="http://placehold.it/350x150" alt="">
+      </figure>
+    </section>
+
+    <section>
+      <figure>
+        <figcaption class="text-center">
           <h2>Who We Are</h2>
           <p>TypeWorks was created with one thing in mind: working type. Founded in 1998, we’ve kept foundries creating type that works.</p>
         </figcaption>
@@ -82,7 +92,7 @@
         <p>Pricing</p>
       </a>
 
-      <a href="features.html">
+      <a href="tour.html">
         <img src="images/" alt="">
         <p>Features</p>
       </a>
@@ -105,7 +115,7 @@
 
       <div>
         <a href="#">Help</a>
-        <a href="join.html">Join</a>
+        <a href="sign-up.html">Join</a>
         <a href="#top">Top</a>
       </div>
 
