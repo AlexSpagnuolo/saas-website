@@ -11,11 +11,26 @@ footer {
   background-color: #95c786;
 }
 
-.help-link, .join-link, .top-link {
+.footer-link {
   text-decoration: none;
   color: white;
 }
 
-.help-link:hover, .join-link:hover, .top-link:hover, .copyright {
+.footer-link:hover, .copyright {
   color: #7ca771;
+}
+
+.green {
+  background-color: #deeeda
+}
+
+.card-link {
+  text-decoration: none;
+  color: #95989a;
+}
+
+.card-link:hover {
+  color: #7ca771;
+  background-color: #95c786;
+
 }
