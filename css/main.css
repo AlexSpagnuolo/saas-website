@@ -1,5 +1,17 @@
-.banner {
+html {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.home-banner {
   max-height: 75vh;
+}
+
+.banner {
+  max-height: 40vh;
+}
+
+.light-stroke {
+  font-weight: 300;
 }
 
 .banner-title {
