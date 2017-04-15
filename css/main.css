@@ -40,7 +40,7 @@ footer {
 }
 
 .green {
-  background-color: #deeeda
+  background-color: #deeeda;
 }
 
 .card-link {
@@ -56,36 +56,39 @@ footer {
 
 .community:hover {
   cursor: default;
-  color: #7ca771
+  color: #7ca771;
 }
 
 .type:hover {
   cursor: default;
-  color: #7ca771
+  color: #7ca771;
 }
 
 .design:hover {
   cursor: default;
-  color: #7ca771
+  color: #7ca771;
 }
 
 .online:hover {
   cursor: default;
-  color: #7ca771
+  color: #7ca771;
 }
 
 .share:hover {
   cursor: default;
-  color: #7ca771
+  color: #7ca771;
 }
 
 .nav {
   display: none;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+  right: 0;
+  background-color: #7ca771;
 }
 
 .nav-check {
   top: -3em;
-}
+z}
 
 .nav-check:checked ~ .nav {
   display: block;
@@ -93,10 +96,9 @@ footer {
 
 .nav-label {
   cursor: pointer;
-  right: .5rem;
+  right: 1rem;
   top: -2rem;
 }
-
 
 .nav-close {
   display: none;
@@ -126,5 +128,10 @@ footer {
 
   .nav {
     display: inline-block;
+    background-color: transparent;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    margin-top: 1rem;
   }
 }

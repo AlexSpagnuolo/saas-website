@@ -14,34 +14,36 @@
     <nav id="top">
 
       <input type="checkbox" class="nav-check absolute" id="nav-check">
-      <label class="nav-label absolute zindex-2" for="nav-check">
+      <label class="nav-label absolute zindex-3" for="nav-check">
         <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
         <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
       </label>
 
-      <ul class="nav grid absolute list-group-inline zindex-2 text-center pin-center-top">
-        <li class="unit xs-1-6">
-          <a class="link-box" href="index.html">
-            <img class="icon i-24" src="images/typeworks-logo.png" alt="">
-          </a>
-        </li>
-        <li class="unit xs-1-6"><a class="footer-link link-box" href="pricing.html">Pricing</a></li>
-        <li class="unit xs-1-6"><a class="footer-link link-box" href="tour.html">Features</a></li>
-        <li class="unit xs-1-6"><a class="footer-link link-box" href="#">Help</a></li>
-        <li class="unit xs-1-6"><a class="footer-link link-box" href="sign-up.html">Join</a></li>
-        <li class="unit xs-1-6">
-          <a class="link-box" href="#">
-            <img src="images/" alt="">
-          </a>
-        </li>
+      <div class="absolute zindex-2">
+        <a href="index.html">
+          <img class="icon i-48" src="images/typeworks-logo.png" alt="">
+        </a>
+      </div>
+
+      <div class="absolute zindex-2">
+        <a class="link-box" href="#">
+          <img src="images/" alt="">
+        </a>
+      </div>
+
+      <ul class="nav grid absolute list-group-inline zindex-2 text-center">
+        <li class="unit xs-1 s-1 m-1-4"><a class="footer-link link-box" href="pricing.html">Pricing</a></li>
+        <li class="unit xs-1 s-1 m-1-4"><a class="footer-link link-box" href="tour.html">Features</a></li>
+        <li class="unit xs-1 s-1 m-1-4"><a class="footer-link link-box" href="#">Help</a></li>
+        <li class="unit xs-1 s-1 m-1-4"><a class="footer-link link-box" href="sign-up.html">Join</a></li>
       </ul>
 
-      <figure class="banner relative chop">
+      <figure class="banner relative chop zindex-1">
         <img class="img-flex banner-img" src="images/homepage-banner.jpg" alt="">
         <figcaption class="banner-title absolute pin-center zindex-2 text-center">
-          <h1>Type that works for you</h1>
+          <h1 class="push-0">Type that works for you</h1>
           <p>Now easier than ever before</p>
-            <a class="btn link-box footer-link" href="sign-up.html">Join</a>
+          <a class="btn link-box footer-link" href="sign-up.html">Join</a>
         </figcaption>
       </figure>
 
@@ -74,11 +76,11 @@
     </section>
 
     <section class="text-center gutter-2 grid push-2">
-      <img class="img-circle icon i-24 unit unit-xs-centered xs-1-5 push community" src="images/icon-community.jpg" alt="">
-      <img class="img-circle icon i-24 unit unit-xs-centered xs-1-5 push type" src="images/icon-type.jpg" alt="">
-      <img class="img-circle icon i-24 unit unit-xs-centered xs-1-5 push design" src="images/icon-design.jpg" alt="">
-      <img class="img-circle icon i-24 unit unit-xs-centered xs-1-5 push online" src="images/icon-online.jpg" alt="">
-      <img class="img-circle icon i-24 unit unit-xs-centered xs-1-5 push share" src="images/icon-share.jpg" alt="">
+      <img class="img-circle icon i-32 unit unit-xs-centered xs-1-5 push community" src="images/icon-community.jpg" alt="">
+      <img class="img-circle icon i-32 unit unit-xs-centered xs-1-5 push type" src="images/icon-type.jpg" alt="">
+      <img class="img-circle icon i-32 unit unit-xs-centered xs-1-5 push design" src="images/icon-design.jpg" alt="">
+      <img class="img-circle icon i-32 unit unit-xs-centered xs-1-5 push online" src="images/icon-online.jpg" alt="">
+      <img class="img-circle icon i-32 unit unit-xs-centered xs-1-5 push share" src="images/icon-share.jpg" alt="">
       <p class="unit xs-1 push-0"><span class="community">Community.</span> <span class="type">Type.</span> <span class="design">Design.</span> <span class="online">Online.</span> <span class="share">Share.</span></p>
     </section>
 
@@ -126,7 +128,7 @@
     </div>
 
     <footer class="grid island">
-      <div class="unit unit-xs-centered">
+      <div class="unit unit-xs-centered push">
         <a class="footer-link" href="https://www.facebook.com">
           <img class="icon i-32 img-circle" src="images/icon-facebook.jpg" alt="">
         </a>
