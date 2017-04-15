@@ -88,7 +88,7 @@ footer {
 
 .nav-check {
   top: -3em;
-z}
+}
 
 .nav-check:checked ~ .nav {
   display: block;
@@ -110,6 +110,12 @@ z}
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.search {
+  margin-right: 5rem;
+  margin-top: .5rem;
+  right: 0;
 }
 
 @media only screen and (min-width: 60em) {
@@ -134,4 +140,26 @@ z}
     transform: translateX(-50%);
     margin-top: 1rem;
   }
+
+  .logo {
+    margin-left: 2rem;
+    margin-top: .5rem;
+  }
+
+  .social {
+    margin-bottom: 0;
+  }
+
+  .community,
+  .type,
+  .design,
+  .online,
+  .share,
+  .facebook,
+  .twitter,
+  .tumblr {
+    height: 48px;
+    width: 48px;
+  }
+
 }
