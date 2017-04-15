@@ -13,7 +13,13 @@
   <header class="relative push-2">
     <nav id="top">
 
-      <ul class="grid absolute list-group-inline zindex-2 text-center">
+      <input type="checkbox" class="nav-check absolute" id="nav-check">
+      <label class="nav-label absolute zindex-2" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+      </label>
+
+      <ul class="nav grid absolute list-group-inline zindex-2 text-center pin-center-top">
         <li class="unit xs-1-6">
           <a class="link-box" href="index.html">
             <img class="icon i-24" src="images/typeworks-logo.png" alt="">
@@ -30,8 +36,8 @@
         </li>
       </ul>
 
-      <figure class="banner relative">
-        <img class="img-flex" src="images/homepage-banner.jpg" alt="">
+      <figure class="banner relative chop">
+        <img class="img-flex banner-img" src="images/homepage-banner.jpg" alt="">
         <figcaption class="banner-title absolute pin-center zindex-2 text-center">
           <h1>Type that works for you</h1>
           <p>Now easier than ever before</p>

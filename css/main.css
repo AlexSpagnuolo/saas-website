@@ -1,3 +1,22 @@
+.banner {
+  max-height: 75vh;
+}
+
+.banner-title {
+  white-space: nowrap;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+}
+
+.quotation {
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+}
+
+.quote {
+  max-height: 20vh;
+}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -36,21 +55,76 @@ footer {
 }
 
 .community:hover {
+  cursor: default;
   color: #7ca771
 }
 
 .type:hover {
+  cursor: default;
   color: #7ca771
 }
 
 .design:hover {
+  cursor: default;
   color: #7ca771
 }
 
 .online:hover {
+  cursor: default;
   color: #7ca771
 }
 
 .share:hover {
+  cursor: default;
   color: #7ca771
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check {
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  right: .5rem;
+  top: -2rem;
+}
+
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-open {
+    display: none;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav a {
+    display: inline-block;
+  }
+
+  .nav {
+    display: inline-block;
+  }
 }
