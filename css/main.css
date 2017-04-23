@@ -43,7 +43,7 @@ html {
 }
 
 footer {
-  background-color: #95c786;
+  background-color: #2b2b2b;
 }
 
 .footer-link {
@@ -51,12 +51,16 @@ footer {
   color: white;
 }
 
-.footer-link:hover, .copyright {
+.footer-link:hover, {
   color: #7ca771;
 }
 
+.copyright {
+  color: white;
+}
+
 .green {
-  background-color: #deeeda;
+  background-color: #e8e8e8;
 }
 
 .card-link {
