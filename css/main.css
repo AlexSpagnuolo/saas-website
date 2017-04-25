@@ -103,7 +103,7 @@ footer {
   display: none;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
   right: 0;
-  background-color: #7ca771;
+  background-color: rgba(43, 43, 43, 0.5);
   padding-top: 2rem;
 }
 
@@ -139,7 +139,12 @@ footer {
   right: 0;
 }
 
-@media only screen and (min-width: 60em) {
+.features-icon,
+.features-icon-2 {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
 
   .nav-open {
     display: none;
@@ -179,9 +184,25 @@ footer {
   .share,
   .facebook,
   .twitter,
-  .tumblr {
+  .tumblr,
+  .features-icon,
+  .features-icon-2 {
     height: 48px;
     width: 48px;
+  }
+
+  .features-icon {
+    display: block;
+    left: 0%;
+    top: 50%;
+    transform: translateX(-50%);
+  }
+
+  .features-icon-2 {
+    display: block;
+    left: 100%;
+    top: 50%;
+    transform: translateX(-50%);
   }
 
 }
