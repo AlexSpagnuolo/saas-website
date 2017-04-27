@@ -51,7 +51,7 @@ footer {
   color: white;
 }
 
-.footer-link:hover {
+a:hover {
   color: #7ca771;
 }
 
@@ -103,7 +103,7 @@ footer {
   display: none;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
   right: 0;
-  background-color: rgba(43, 43, 43, 0.5);
+  background-color: rgba(43, 43, 43, .5);
   padding-top: 2rem;
 }
 
