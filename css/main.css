@@ -119,6 +119,7 @@ a:hover {
   cursor: pointer;
   right: 1rem;
   top: -2rem;
+  width: 40px;
 }
 
 .nav-close {
