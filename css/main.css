@@ -107,6 +107,14 @@ a:hover {
   padding-top: 2rem;
 }
 
+.nav li {
+  padding-top: 1.5rem;
+}
+
+.nav li:last-of-type {
+  padding-bottom: 1.5rem;
+}
+
 .nav-check {
   top: -3em;
 }
@@ -153,6 +161,8 @@ a:hover {
 
   .nav li {
     display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .nav a {
